@@ -1,13 +1,16 @@
-SetTimer, a, 1000
+SetTimer, a, 10
+
 $a::
   Send, {a down}
   KeyWait, a
   Send, {a up}
 Return
+
 a:
-    If (GetKeyState("a", "p"))
-        Send {a up}{a down}
+  If (GetKeyState("a", "p"))
+    Send {a down}{a up}
 return
+
 f8::
   Pause
   Suspend
