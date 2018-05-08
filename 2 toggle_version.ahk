@@ -1,5 +1,11 @@
+#Persistent
+#SingleInstance, Force
+
+Toggle_all := true
+
 SetTimer, a, 10
 
+Toggle_a := true
 F7 & a::Toggle_a:=!Toggle_a
 
 #If Toggle_a
@@ -11,12 +17,12 @@ Return
 #If
 
 a:
-  If (GetKeyState("a", "p") and Toggle_a)
+  If (GetKeyState("a", "p") and Toggle_all and Toggle_a)
     Send {a down}{a up}
 return
 
 
 f8::
-  Pause
   Suspend
+  Toggle_all := !Toggle_all
 return
