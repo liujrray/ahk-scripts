@@ -1,0 +1,1 @@
+.\AutoHotkey_2.0-a096-2ad11cb\x64w\AutoHotKey.exe .\AutoHotkey_2.0-a096-2ad11cb\Compiler\Ahk2Exe.ahk

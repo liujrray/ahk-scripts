@@ -1,0 +1,1 @@
+.\ahkdll-v2-release-master\x64w\AutoHotKey.exe .\ahkdll-v2-release-master\Compiler\Ahk2Exe.ahk
